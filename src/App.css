@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  text-align: left;
+  width: 100%;
+  background: #242424;
+  max-width: 600px;
+}
+
+.accordion button{
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #242424;
+  border-bottom: 3px solid black;
+}
+
+.accordion button,
+.accordion p {
+  padding: 0.75em;
+  background: #242424;
+}
+
+img{
+  width: 32px;
+}
